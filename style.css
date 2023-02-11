@@ -1,73 +1,122 @@
+
+body {
+    font-family: 'Oswald';
+}
+
+
+
+
 .background1 {
-    background: url(assets/Desktop_Backgrounds_1920x1200_6\ 3.png);
-    background-size: cover;
-    position: absolute
-    width: 1315px;
-    height: 822px;
-    left: -116px;
-    right: 10%
-    top: -22px;
-
-
-   
-.logo {
-    position: absolute;
-    left: 0%;
-    right: 0.01%;
-    top: 40%;
-    bottom: 1%;
-
-}
+    background: url(assets/Desktop_Backgrounds_1920x1200_6\ 3.png) no-repeat center;
+    background-size: 100% 100%;
+    height: auto;
+    width: auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin: 0%;
+    border: 0%;
     
+
 }
 
-.text1 {
-    color: #FFFFFb;
-    font-family: oswald;
+.background1 img {
+    width: 5%;
+    height: auto;
+    margin-left: 47%;
+   
+
+}
+
+.background1 h1 {
+    color:#FFFFFb;
     font-style: normal;
     text-align: center;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 64px;
-    
+    width: 1900px;
+    bottom: 0.01%;
+  
+       
 }
 
+.background1 p {
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'source sans pro';
+    font-weight: 100;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    top: 50%;
+  
+}
+   
+
+    
 .background2 {
     background: url(assets/2.png);
-    background-size: cover;
-    position: absolute;
-    width: 2000px;
-    height: 350px;
-    left: 0px;
-    right: 0px;
+    background-size: 100% 100%;
+    height: auto;
+    width: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0%;
+    border: 0%;
    
 
 }
 
-.text2 {
-    font-family: oswald;
+.background2 h2 {
     text-align: center;
-    top: 50%;
+    font-size: 48px;
+    top: 10%;
     left: 30%;
-}
-
-
-.background3 {
-    background: url(assets/3.png);
-    background: rgba(140, 79, 42, 0.3);
-    background-size: cover;
-    position: absolute;
-    width: 1900px;
-    height: 400px;
-    left: 0px;
-    right: 0px;
-    top: 1180px;
+    color: #464547;
     
 }
 
-.text3 {
+.background2 h3 {
+    text-align: center;
+    font-size: 24px;
+    top: 200%;
+    left: 30%;
+    color: #666666;
+    
+}
+
+.background2 p {
+    text-align: center;
+    font-size: 14px;
+    top: 200%;
+    left: 30%;
+    color: #000000;
+    
+}
+
+.background3 {
+    background: url(assets/3.png);
+    background-size: 100% 100%;
+    height: auto;
+    width: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0%;
+    border: 0%;
+    
+}
+
+.background3 h2 {
     color: #FFFFFb;
-    font-family: oswald;
+    text-align: center;
+    font-size: 48px;
+    top: 50%;
+    left: 20%;
+}
+
+.background3 h3 {
+    color: #FFFFFb;
+    font-size: 24px;
     text-align: center;
     top: 50%;
     left: 20%;
@@ -75,15 +124,16 @@
 
 .background4 {
     background: url(assets/4.png);
-    position: absolute;
-    width: 1900px;
-    height: 170px;
-    left: 0px;
-    top: 1580px;
+    background-size: 100% 100%;
+    height: auto;
+    width: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0%;
+    border: 0%;
 }
 
-.text3 {
-    font-family: oswald;
+.background4 p {
     top: 2220px;
     left: 50%;
     right: 200px;
@@ -92,17 +142,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    color: rgba(255, 255, 255, 0.4);
 }
 
-.boton1 {
-    position: absolute;
-    color: #FFFFFF;
-    font-family: 'Oswald Regular';
-    text-align: center;
-    top: 190px;
-    right: 48%;
-    font-size: smaller
-    
-    ;
-   
-}
